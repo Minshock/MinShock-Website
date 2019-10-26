@@ -1,6 +1,8 @@
-# minshock
+# MinShock Labs
 
 > A Website for MinShock Labs, Like a real one ...
+
+### We're Award Winning Creative Digital Agency that create Brands.
 
 ## Build Setup
 
