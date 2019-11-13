@@ -8,7 +8,7 @@
 
     <minheader />
 
-    <minhero :background-url="require('~/assets/images/banner1.jpg')" />
+    <minhero :background-url="require('~/assets/images/home-banner1.jpg')" />
 
     <minrecent />
 

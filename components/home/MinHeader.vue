@@ -1,52 +1,32 @@
 <template>
   <!-- header start -->
-  <header>
+  <header fixed="top">
     <div class="container">
       <div class="header-bar">
-        <nav class="navbar navbar-light navbar-expand-md">
-          <div class="logo">
-            <a class="navbar-brand" href="#">
-              <img
-                src="~assets/images/logo.svg"
-                width="30"
-                height="30"
-                class="d-inline-block align-top"
-                alt="MinShock Labs"
-              />
-              MinShock
-            </a>
-          </div>
-          <button
-            type="button"
-            class="navbar-toggler collapsed"
-            data-toggle="collapse"
-            data-target="#navbar"
-            aria-expanded="false"
-            aria-controls="navbar"
-          >
-            <span class="sr-only">Toggle navigation</span>&#x2630;
-          </button>
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav ml-auto">
-              <li class="active nav-item">
-                <a href="#" class="nav-link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Work</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">About</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link">Contact</a>
-              </li>
-            </ul>
-          </div>
-          <!--/.nav-collapse -->
-        </nav>
+        <b-navbar toggleable="md">
+          <b-navbar-brand href="#">
+            <img
+              src="~assets/images/logo.svg"
+              width="30"
+              height="30"
+              class="d-inline-block align-top"
+              alt="MinShock Labs"
+            />
+            MinShock
+          </b-navbar-brand>
+
+          <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+          <b-collapse id="nav-collapse" is-nav>
+            <b-navbar-nav class="ml-auto">
+              <b-nav-item href="#">Home</b-nav-item>
+              <b-nav-item href="#">Work</b-nav-item>
+              <b-nav-item href="#">About</b-nav-item>
+              <b-nav-item href="#">Blog</b-nav-item>
+              <b-nav-item href="#">Contact</b-nav-item>
+            </b-navbar-nav>
+          </b-collapse>
+        </b-navbar>
       </div>
     </div>
   </header>
@@ -54,7 +34,7 @@
 </template>
 
 <style scoped>
-header {
+/* header {
   background: transparent;
   width: 100%;
   position: fixed;
@@ -69,7 +49,7 @@ header {
   color: #686868;
   transition: all 0.1s ease-in;
   border-bottom: solid 1px rgba(255, 255, 255, 0);
-}
+} */
 </style>
 
 <script>
