@@ -1,14 +1,8 @@
 <template>
   <div>
-    <!-- preloader start -->
-    <div class="preloader">
-      <div class="spinner"></div>
-    </div>
-    <!-- preloader end -->
-
     <minheader />
 
-    <minhero :background-url="require('~/assets/images/home-banner1.jpg')" />
+    <minhero :background-url="require('~/assets/images/home-banner2.jpg')" />
 
     <minrecent />
 
@@ -29,7 +23,7 @@
 
 <script>
 import minhero from '~/components/home/MinHero'
-import minheader from '~/components/home/MinHeader'
+import minheader from '~/components/MinHeader'
 import minrecent from '~/components/home/MinRecent'
 import minstats from '~/components/home/MinStats'
 import minclients from '~/components/home/MinClients'
@@ -49,15 +43,4 @@ export default {
 }
 </script>
 
-<style>
-body {
-  font-size: 15px;
-  line-height: 27px;
-  font-weight: 400;
-  /* font-family: 'Quicksand'; */
-  color: #273849;
-  background: #fff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-</style>
+<style></style>

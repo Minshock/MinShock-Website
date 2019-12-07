@@ -9,35 +9,31 @@
             <h5>See some of our amazing work</h5>
           </hgroup>
 
-          <div id="masonry" class="grid">
-            <div class="grid-sizer"></div>
-            <div class="gutter-sizer"></div>
-            <div class="my-work row">
-              <div data-filter="two" class="grid-item col-md-6">
-                <div class="work-box">
-                  <a href="#">
-                    <img src="~assets/images/project2.jpg" alt />
-                  </a>
-                </div>
-                <div class="work-heading">
-                  <a href="#">
-                    <h6>Project Name</h6>
-                    <p>Branding</p>
-                  </a>
-                </div>
+          <div class="row">
+            <div data-filter="two" class="col-md-6">
+              <div class="work-box">
+                <a href="#">
+                  <img src="~assets/images/project2.png" alt />
+                </a>
               </div>
-              <div data-filter="one" class="grid-item col-md-6">
-                <div class="work-box">
-                  <a href="#">
-                    <img src="~assets/images/project2.jpg" alt />
-                  </a>
-                </div>
-                <div class="work-heading">
-                  <a href="#">
-                    <h6>Project Name</h6>
-                    <p>Website</p>
-                  </a>
-                </div>
+              <div class="work-heading">
+                <a href="#">
+                  <h6>Project Name</h6>
+                  <p>Mobile Application</p>
+                </a>
+              </div>
+            </div>
+            <div data-filter="one" class="col-md-6">
+              <div class="work-box">
+                <a href="#">
+                  <img src="~assets/images/project3.png" alt />
+                </a>
+              </div>
+              <div class="work-heading">
+                <a href="#">
+                  <h6>Project Name</h6>
+                  <p>Webs Application</p>
+                </a>
               </div>
             </div>
           </div>
@@ -157,7 +153,7 @@ hgroup {
 .work-heading h6 {
   margin-bottom: 0;
   position: relative;
-  color: #fff;
+  /* color: #fff; */
   transition: all 0.1s ease-in;
   -moz-transition: all 0.1s ease-in;
   -o-transition: all 0.1s ease-in;
@@ -167,7 +163,7 @@ hgroup {
 }
 
 .work-heading p {
-  color: #fff;
+  /* color: #fff; */
   margin-bottom: 0;
   position: relative;
   transition: all 0.3s ease-in;

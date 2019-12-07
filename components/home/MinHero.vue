@@ -1,18 +1,18 @@
 <template>
   <div class="main-container-outer clearfix">
     <div
+      :style="{ backgroundImage: `url(${backgroundUrl})` }"
       class="intro-container parallax"
       data-parallax-speed="5"
-      :style="{ backgroundImage: `url(${backgroundUrl})` }"
     >
       <div class="container">
         <div class="row">
           <div class="col-lg-9 col-md-11">
-            <h6 class="subtitle">Welcome to MinShock Labs!</h6>
-            <h1>
+            <h6 class="text-primary display-10">Welcome to MinShock Labs!</h6>
+            <h1 class="display-3">
               We&apos;re Award Winning
               <br />
-              <span>
+              <span class="text-primary">
                 <i>Creative Digital Agency</i>
               </span>
               <br />that create <i>Brands</i>.
@@ -29,7 +29,7 @@ export default {
   props: {
     backgroundUrl: {
       type: String,
-      default: '~/assets/images/banner1.jpg'
+      default: '~/assets/images/banner2.jpg'
     }
   }
 }
@@ -50,7 +50,13 @@ export default {
   top: 0;
   right: 0;
   bottom: 0;
-  background: #f6f6f6;
-  opacity: 0.5;
+  background: #fff;
+  opacity: 0.8;
+}
+
+.display-10 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 1.2;
 }
 </style>

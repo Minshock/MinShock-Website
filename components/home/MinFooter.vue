@@ -1,14 +1,19 @@
 <template>
-  <footer>
-    <ul class="social-links">
-      <li>
-        <a href="#" target="_blank">Twitter</a>
-      </li>
-      <li>
-        <a href="#" target="_blank">Github</a>
-      </li>
-    </ul>
-  </footer>
+  <div>
+    <footer>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="#" target="_blank">Twitter</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" target="_blank">Github</a>
+        </li>
+        <li class="list-inline-item">
+          <a href="#" target="_blank">LinkedIn</a>
+        </li>
+      </ul>
+    </footer>
+  </div>
 </template>
 
 <style scoped>
@@ -18,17 +23,8 @@ footer {
   text-align: center;
   background: #222;
 }
-
-ul.social-links {
-  width: 100%;
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: 10px;
-}
-
-ul.social-links li {
-  display: inline-block;
-  padding: 5px 10px;
+.list-inline a {
+  text-decoration: none;
 }
 </style>
 
